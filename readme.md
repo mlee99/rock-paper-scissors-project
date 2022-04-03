@@ -21,13 +21,13 @@ I went to geeksforgeeks.org and followed their [Rock, paper, and scissors game](
 
 ### Screenshot
 
-![Starting Page]()
-![Reactive Counters and Messages]()
-![End Page]()
+![Starting Page](https://github.com/mlee99/rock-paper-scissors-project/blob/main/assests/starting-page.png)
+![Reactive Counters and Messages](https://github.com/mlee99/rock-paper-scissors-project/blob/main/assests/reactive-counters-and-messages.png)
+![End Page](https://github.com/mlee99/rock-paper-scissors-project/blob/main/assests/end-page.png)
 
 ### Links
 
-- Solution URL: [Rock, Paper, Scissors solution](https://github.com/mlee99/)
+- Solution URL: [Rock, Paper, Scissors solution](https://github.com/mlee99/rock-paper-scissors-project)
 
 ## My process
     I started off with the HTML and CSS skeletons made within Geeks for Geeks. I reformatted the css files into scss to get some practice with that. Then I went ahead and made the first js file, "script.js".
