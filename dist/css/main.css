@@ -1,0 +1,151 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 1em;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+}
+
+/* To center everything in game */
+.game {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#082c6c), to(#fff));
+  background-image: linear-gradient(to bottom, #082c6c, #fff);
+  color: #fff;
+}
+
+/* Title of the game */
+.title {
+  position: absolute;
+  top: 0;
+  font-size: 4rem;
+  z-index: 2;
+}
+
+/* Score Board */
+.score {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30vw;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  position: absolute;
+  top: 100px;
+  z-index: 1;
+  border-style: solid;
+  padding: 10px 0px;
+}
+
+/* Score  */
+.p-count, .c-count {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* displaying three buttons in one line */
+.options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 45vw;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+/* Styling on all three buttons */
+.rock, .paper, .scissor {
+  padding: 0.8rem;
+  width: 100px;
+  border-radius: 10px;
+  background: green;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1em;
+  outline: none;
+  border-color: green;
+  border: none;
+  cursor: pointer;
+}
+
+.move {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Reload button style */
+.reload {
+  display: none;
+  margin-top: 2rem;
+  padding: 1rem;
+  background: green;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 612px) {
+  .title {
+    text-align: center;
+  }
+  .score {
+    position: absolute;
+    top: 200px;
+    width: 100vw;
+  }
+  .options {
+    width: 100vw;
+  }
+}
+/*# sourceMappingURL=main.css.map */
